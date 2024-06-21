@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
+
+    
+}
+body{
+    background-color:  #353b48;
+    
+}
+.btn-group button{
+    border: 2px solid  #00b894;;
+    color: #fff;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    background-color:  #00b894;
+    font-size: 15px;
+    border-radius: 3px;
+    transition:0.3s;
+    margin-left: 15px;
+   
+}
+.btn-group button:hover,.btn-group .btn-clicked{
+    background-color: #353b48;
+
+}
+input{
+    width:200px;
+    height:30px;
+    border:2px solid #00b894;
+    padding:0 10px;
+    position: absolute;
+    margin-left: 30px;
+    margin-left: 750px;
+}
+.control{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: 30px;
+    /* property in CSS is used within a flex container to distribute the space between flex items along the main axis.  */
+    justify-content: space-between;
+    
+}
+.container{
+    margin-top: 30px;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1px;
+    margin-left: 15px;
+}
+img{
+    width: 178px;
+    height: 156px;
+    
+}
+.box img{
+    width: 178px;
+    height:156px;
+    border: 5px solid #fff;
+    margin-top: 15px;
+    transition: 0.5s;
+    /* transform-origin: top;
+    object-fit: cover; */
+    
+}
+.box img:hover{
+    transform: scale(1.1);
+
+}
